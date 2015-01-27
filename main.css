@@ -1,0 +1,88 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+    font-stretch: condensed;
+    font-family: "Garamond", "Times New Roman", serif;
+    font-size: 1.2em;
+    font-weight: 700;
+
+}
+
+html, body {
+    padding: 10px;
+    background-image: url(Images/bg.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    height: auto;
+    resize: both;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #222;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.subhead {
+    font-size: 25px;
+    border-bottom-style: groove;
+}
+
+.top {
+    border-color: #222;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead th {
+    font-style: strong;
+    font-size: 25px;
+    font-weight: 1700;
+    border-bottom: 2px solid #222;
+    padding-bottom: 5px;
+}
+
+.top tbody tr {
+    text-align: center;
+}
+
+table tr {
+}
+
+header {
+    color: #222;
+    clear: both;
+    width: 100%;
+    display: inline-block;
+}
+
+.header {
+    text-align: justify;
+    vertical-align: baseline;
+    font-weight: 1700;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    padding-top: 25px;
+    float: right;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+#footerwrap {
+    text-align: center;
+    font color: #222;
+}
